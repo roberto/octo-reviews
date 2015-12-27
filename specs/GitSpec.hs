@@ -12,3 +12,11 @@ main = hspec $ do
   describe "remoteUrl" $ do
     it "returns this repository url" $ do
       remoteUrl `shouldReturn` "git@github.com:roberto/octo-reviews.git"
+
+  describe "owner" $ do
+    it "returns this repository owner" $ do
+      owner `shouldReturn` "roberto"
+
+  describe "project" $ do
+    it "returns this repository name" $ do
+      project `shouldReturn` "octo-reviews"
