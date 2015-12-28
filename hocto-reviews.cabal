@@ -20,6 +20,6 @@ executable hocto-reviews
   main-is:             Main.hs
   -- other-modules:       
   -- other-extensions:    
-  build-depends:       base >=4.8 && <4.9, process, regexpr
+  build-depends:       base >=4.8 && <4.9, process, regexpr, text
   hs-source-dirs:      src
   default-language:    Haskell2010
